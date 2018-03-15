@@ -1,8 +1,8 @@
 // Program to calculate Largest No Among available Nos.
 /**
  * @author Naresh
- * @Year 2018
- * @Version 1.1
+ * @since 2018
+ * @version 1.1
  */
 
 package Ch2;
@@ -19,11 +19,14 @@ public class GreatestNo {
 		{
 			System.out.println("Largest No is:" + num1);
 		}
-			else 
+			else
+			{
 				if (num2 > num1 & num2 > num3)
 				System.out.println("Largest No is: " + num2);
-		
+			}
 			else
+			{
 			System.out.println("Largest No is: " + num3);
+			}
 		}
 	}
