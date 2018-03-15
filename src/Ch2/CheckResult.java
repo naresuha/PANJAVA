@@ -1,8 +1,8 @@
 //Program to Check Exam Result, If Marks above 50 pass else fail.
 /**
- * @Author Naresh P
- * @Yr 2018
- * @Version 1.1
+ * @author Naresh P
+ * @since 2018
+ * @version 1.1
  */
 
 package Ch2;
