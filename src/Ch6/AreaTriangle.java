@@ -23,18 +23,16 @@ class AreaTriangle{
 		
 		Triangle T1 = new Triangle();
 		Triangle T2 = new Triangle();
-		float area;
 		
-		T1.height = 10d;
-		T1.base = 10d;
+		T1.height = 20.0d;
+		T1.base = 20.0d;
 		
-		area = T1.area();
-		System.out.println("Area of Triangle1: "+ area);
+		System.out.println("Area of Triangle1: "+ T1.area());
 		
-		T2.height = 20d;
-		T2.base = 20d;
-		area = T2.area();
-		System.out.println("Area of Traingle2: "+ area);
+		T2.height = 40.0d;
+		T2.base = 40.0d;
+		
+		System.out.println("Area of Traingle2: "+ T2.area());
 	}	
 		
 }
