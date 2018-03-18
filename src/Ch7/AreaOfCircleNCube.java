@@ -1,4 +1,4 @@
-//Define two areas to accomodate constructor & method overloading 
+//Define two areas to accommodate constructor & method overloading 
 /**
  * author Naresh P
  * since 2018
@@ -9,9 +9,7 @@ package Ch7;
 
 class areas{
 	
-	float r;
-	double a;
-	float pi;
+	double r,a,pi;
 	
 	areas(float r,float pi){ //overloading constructor 'areas'
 		this.r = r;
@@ -25,7 +23,7 @@ class areas{
 		return (6 * a * a);
 	}
 	float vol(){
-		return (pi * r * r );
+		return (float) (pi * r * r );
 	}
 }
 
@@ -37,6 +35,7 @@ public class AreaOfCircleNCube {
 		
 		System.out.println("Area of Circle: "+ C1.vol());
 		System.out.println("Area of Cube: " + C2.vol(3.0d));
+		
 	}
 	
 }
