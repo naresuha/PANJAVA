@@ -1,6 +1,6 @@
 //program create multilevel hierarchy & use 'super' key word.
 /**
- * author naresh
+ * author Naresh P
  * since 2018
  * version 1.1
  */
