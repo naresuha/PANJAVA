@@ -11,8 +11,8 @@ class test1{
 	
 	int i;
 	
-	test1(int r){
-		 r = i;
+	test1(int r){ // Complier read from right to left.
+		 i = r;
 	}
 	void S(test1 a){
 		a.i *= 2;
