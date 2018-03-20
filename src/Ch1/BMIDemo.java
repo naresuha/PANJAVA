@@ -1,14 +1,14 @@
 //Program to Compute Body Mass Index
 
 /**
- * @Author Naresh
- * @Year 2018
- * @Version 1.1
+ * @author Naresh
+ * @since 2018
+ * @version 1.1
  */
 
 package Ch1;
 
-public class BMIDemo {
+public class BmiDemo {
 
 	public static void main(String[] args) {
 
