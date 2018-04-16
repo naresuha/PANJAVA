@@ -21,7 +21,7 @@ public class GreatestNo {
 		}
 			else
 			{
-				if (num2 > num1 & num2 > num3)
+				if (num2 > num1 & num2 > num3){
 				System.out.println("Largest No is: " + num2);
 			}
 			else
@@ -30,3 +30,4 @@ public class GreatestNo {
 			}
 		}
 	}
+}
