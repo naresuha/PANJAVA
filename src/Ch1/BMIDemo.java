@@ -8,7 +8,7 @@
 
 package Ch1;
 
-public class BmiDemo {
+public class BMIDemo {
 
 	public static void main(String[] args) {
 
